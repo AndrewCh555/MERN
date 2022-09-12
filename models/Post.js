@@ -29,5 +29,11 @@ const PostSchema = new mongoose.Schema({
     timestamps: true
 },
 );
+//o
+//gggg
+///tff
+
+
+
 
 export default mongoose.model('Post', PostSchema);
