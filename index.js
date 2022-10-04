@@ -11,7 +11,7 @@ import { UserController, PostController } from './controllers/index.js';
 mongoose
 .connect('mongodb+srv://Andrew:Andrew@cluster0.i2fql.mongodb.net/blog?retryWrites=true&w=majority')
 .then(() => console.log('DB Ok'))
-.catch((err) => consolelog('DB error', err));
+.catch((err) => console.log('DB error', err));
 
 const app = express();
 
@@ -52,4 +52,3 @@ app.listen(4444, (err) => {
     console.log('Server OK');
 });
 
-// last version
