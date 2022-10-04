@@ -1,0 +1,18 @@
+Index: models/User.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import mongoose from \"mongoose\";\n\nconst UserSchema = new mongoose.Schema({\n    fullName: {\n        type: String,\n        required: true,\n    },\n    email: {\n        type: String,\n        required: true,\n        unique: true,\n    },\n    passwordHash: {\n        type: String,\n        required: true,\n    },\n    avatarUrl: String,    \n},\n{\n    timestamps: true\n},\n);\n\nexport default mongoose.model('User', UserSchema);
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/models/User.js b/models/User.js
+--- a/models/User.js	(revision 55fac79342c72707fa3e7af44c1033452a06a261)
++++ b/models/User.js	(date 1662983412933)
+@@ -21,4 +21,6 @@
+ },
+ );
+ 
++//dev1
++
+ export default mongoose.model('User', UserSchema);
+\ No newline at end of file
