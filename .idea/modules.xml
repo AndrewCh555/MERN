@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MERN.iml" filepath="$PROJECT_DIR$/.idea/MERN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../copies/crm-time-tracking on type ORM/.idea/crm-time-tracking on type ORM.iml" filepath="$PROJECT_DIR$/../copies/crm-time-tracking on type ORM/.idea/crm-time-tracking on type ORM.iml" />
     </modules>
   </component>
 </project>
